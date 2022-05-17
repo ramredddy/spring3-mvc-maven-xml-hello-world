@@ -21,3 +21,6 @@ jobs:
     - name: build docker image and push to ecr repo
       run: |
          docker build -t ${{ secrets.ECR_REPO_NAME }}/spring:${{ env.RELEASE_VERSION  }} .
+         $(aws ecr get-login --no-include-email --region ap-south-1)
+         docker push ${{ secrets.ECR_REPO_NAME }}/spring:${{ env.RELEASE_VERSION }}
+ 
