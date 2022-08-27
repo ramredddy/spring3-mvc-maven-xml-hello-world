@@ -65,11 +65,7 @@
 					<wtpversion>2.0</wtpversion>
 					<wtpContextName>spring3</wtpContextName>
 				</configuration>
-			</plugin>
-			<plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
+		        </plugin>
 			
 		</plugins>
 	</build>
