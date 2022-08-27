@@ -8,9 +8,9 @@
 	<name>spring3 mvc maven</name>
 
 	<properties>
-		
-               <maven.compiler.source>11</maven.compiler.source>
-               <maven.compiler.target>11</maven.compiler.target>
+		<jdk.version>1.8</jdk.version>
+		<spring.version>3.2.13.RELEASE</spring.version>
+		<jstl.version>1.2</jstl.version>
     
 	</properties>
 
