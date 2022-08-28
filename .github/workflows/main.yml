@@ -2,7 +2,7 @@ name: TERRAFORM PROJ
 
 on:
   push:
-   # branche: [ master ]
+   # branche: [ masters ]
    
 
 jobs:
